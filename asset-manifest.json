@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/resgo/static/css/main.2452e22e.css",
+    "main.js": "/resgo/static/js/main.16beea3d.js",
+    "static/media/villa.jpg": "/resgo/static/media/villa.16aa6f4913aa7711fdff.jpg",
+    "static/media/yurts.jpg": "/resgo/static/media/yurts.6c1751de63bc5594092e.jpg",
+    "static/media/seoul.jpg": "/resgo/static/media/seoul.de3e8b4e162883b127ca.jpg",
+    "static/media/losangeles.jpg": "/resgo/static/media/losangeles.9ffd20d2a2d3d04152c7.jpg",
+    "static/media/lasvegas.jpg": "/resgo/static/media/lasvegas.46c74c13a93c45374d7d.jpg",
+    "static/media/logcabin.jpg": "/resgo/static/media/logcabin.f4658dd7e3c06c91cf29.jpg",
+    "static/media/hotel.jpg": "/resgo/static/media/hotel.98a8ff7ab8071a1993c8.jpg",
+    "static/media/home.jpg": "/resgo/static/media/home.c2a3a17491767ad388b4.jpg",
+    "index.html": "/resgo/index.html",
+    "main.2452e22e.css.map": "/resgo/static/css/main.2452e22e.css.map",
+    "main.16beea3d.js.map": "/resgo/static/js/main.16beea3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2452e22e.css",
+    "static/js/main.16beea3d.js"
+  ]
+}
