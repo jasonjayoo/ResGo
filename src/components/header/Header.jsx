@@ -1,13 +1,13 @@
-import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
-import { faHotel } from "@fortawesome/free-solid-svg-icons";
-import { faPlane } from "@fortawesome/free-solid-svg-icons";
-import { faCar } from "@fortawesome/free-solid-svg-icons";
-import { faBed } from "@fortawesome/free-solid-svg-icons";
-import { faTaxi } from "@fortawesome/free-solid-svg-icons";
-import { faPerson } from "@fortawesome/free-solid-svg-icons";
+// import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
+// import { faHotel } from "@fortawesome/free-solid-svg-icons";
+// import { faPlane } from "@fortawesome/free-solid-svg-icons";
+// import { faCar } from "@fortawesome/free-solid-svg-icons";
+// import { faBed } from "@fortawesome/free-solid-svg-icons";
+// import { faTaxi } from "@fortawesome/free-solid-svg-icons";
+// import { faPerson } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import { DateRange } from "react-date-range";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format } from "date-fns";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
@@ -43,27 +43,32 @@ const Header = ({type}) => {
       <div className={type === "list" ? "headerContainer listMode": "headerContainer"} >
         <div className="headerList">
           <div className="headerListItem active">
-            <FontAwesomeIcon icon={faHotel} />
+            <div id="icons">🏩</div>
+            {/* <FontAwesomeIcon icon={faHotel} /> */}
             <span>Reservations</span>
           </div>
 
           <div className="headerListItem active">
-            <FontAwesomeIcon icon={faPlane} />
+            <div id="icons1">🛫</div>
+            {/* <FontAwesomeIcon icon={faPlane} /> */}
             <span>Flights</span>
           </div>
 
           <div className="headerListItem active">
-            <FontAwesomeIcon icon={faCar} />
+            <div id="icons">🚘</div>
+            {/* <FontAwesomeIcon icon={faCar} /> */}
             <span>Vehicle Rentals</span>
           </div>
 
           <div className="headerListItem active">
-            <FontAwesomeIcon icon={faBed} />
+            <div id="icons">🛌🏼</div>
+            {/* <FontAwesomeIcon icon={faBed} /> */}
             <span>Stays</span>
           </div>
 
           <div className="headerListItem active">
-            <FontAwesomeIcon icon={faTaxi} />
+            <div id="icons">🚕</div>
+            {/* <FontAwesomeIcon icon={faTaxi} /> */}
             <span>Airport Taxis</span>
           </div>
         </div>
@@ -75,7 +80,8 @@ const Header = ({type}) => {
         <button className="headerBtn">Sign in / Register</button>
         <div className="headerSearch">
           <div className="headerSearchItem">
-            <FontAwesomeIcon icon={faBed} className="headerIcon" />
+          <div className="headerIcon1">🛌</div>
+            {/* <FontAwesomeIcon icon={faBed} className="headerIcon" /> */}
             <input
               type="text"
               placeholder="Enter City Name"
@@ -84,7 +90,8 @@ const Header = ({type}) => {
           </div>
 
           <div className="headerSearchItem">
-            <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
+            <div className="headerIcon2">📅</div>
+            {/* <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" /> */}
             <span
               onClick={() => setOpenDate(!openDate)}
               className="headerSearchText"
@@ -104,7 +111,8 @@ const Header = ({type}) => {
           </div>
 
           <div className="headerSearchItem">
-            <FontAwesomeIcon icon={faPerson} className="headerIcon" />
+          <div className="headerIcon3">🧍</div>
+            {/* <FontAwesomeIcon icon={faPerson} className="headerIcon" /> */}
             <span onClick={()=>setOpenOptions(!openOptions)} className="headerSearchText">{`${options.adult} adult · ${options.children} children · ${options.room} room `}</span>
             {openOptions && <div className="options">
               <div className="optionItem">

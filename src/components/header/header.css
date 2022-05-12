@@ -64,8 +64,16 @@
     max-width: 1024px;
 }
 
-.headerIcon{
-    color: lightgray;
+#icons {
+    padding-bottom: 1px;
+}
+
+#icons1 {
+    padding-bottom: -1px;
+}
+
+.headerIcon1{
+    padding-bottom: 5px;
 }
 
 .headerSearchItem {
