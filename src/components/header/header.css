@@ -66,10 +66,15 @@
 
 #icons {
     padding-bottom: 1px;
+    background-color: aliceblue;
+    border-radius: 15px;
 }
 
 #icons1 {
     padding-bottom: -1px;
+    color: white;
+    background-color: aliceblue;
+    border-radius: 15px;
 }
 
 .headerIcon1{
